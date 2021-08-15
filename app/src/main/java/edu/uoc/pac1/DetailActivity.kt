@@ -49,9 +49,6 @@ class DetailActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            // TODO: Add
-//            BookDetailView(book = book)
-            // TODO: Remove
             PAC1Theme {
                 // Basic screen structure with AppBar and Body
                 Scaffold(

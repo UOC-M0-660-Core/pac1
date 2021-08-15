@@ -62,7 +62,10 @@ fun Greeting(name: String) {
 @Composable
 fun DefaultPreview() {
     PAC1Theme {
-        // TODO: Update as the PAC progresses
-        Greeting("Android")
+        BookList(
+            books = BooksFactory.books(),
+            favouriteBookIds = listOf(1, 3, 4),
+            onBookSelected = {},
+        )
     }
 }

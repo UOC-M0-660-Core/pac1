@@ -25,7 +25,6 @@ import edu.uoc.pac1.ui.theme.PAC1Theme
  */
 @Composable
 fun BookDetailView(book: Book) {
-//    Text(text = book.description)
     Column(
         modifier = Modifier
             .verticalScroll(rememberScrollState())
